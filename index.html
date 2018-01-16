@@ -1,0 +1,107 @@
+<html lang='fr'>
+    <head>
+        <script type="text/javascript" src="js/jquery.min.js"></script>
+        <script type="text/javascript" src="js/sprite.js"></script>
+        <script type="text/javascript" src="js/app.js"></script>
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/app.css">
+        <link rel="stylesheet" href="css/icomoon.css">
+    </head>
+
+    <body>
+        <img id="run"       src="assets/runFront.png" style="display:none;">
+        <img id="runSide"   src="assets/runSide.png" style="display:none;">
+        <img id="walk"       src="assets/walkFront.png" style="display:none;">
+        <img id="walkSide"   src="assets/walkSide.png" style="display:none;">
+        <img id="blink"     src="assets/blink.png" style="display:none;">
+        <img id="ennui"     src="assets/ennui.png" style="display:none;">
+        <img id="attack"     src="assets/attack.png" style="display:none;">
+
+
+        
+        <div class="col">
+            <canvas id="canvas" width="460" height="220"></canvas>
+        </div>
+        
+        <div class="row">
+            <div class="col">
+                <div class="progress">
+                    <div id="health" class="progress-bar bg-success" role="progressbar" style="width: 25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+                        Santé
+                    </div>
+                </div>
+                <div class="progress">
+                    <div id="happiness" class="progress-bar bg-info" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">
+                        Bonheur
+                    </div>
+                </div>
+                <div class="progress">
+                    <div id="hunger" class="progress-bar bg-warning" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+                        Faim
+                    </div>
+                </div>
+                <div class="progress">
+                    <div id="sleep" class="progress-bar bg-danger" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
+                        Sommeil
+                    </div>
+                </div>
+            </div>
+            <div class="col"></div>
+           <!--  <div class="col">
+                <ul class="list-group">
+                    <li class="list-group-item d-flex justify-content-between align-items-center">
+                        Position x
+                        <span id="borneGauche" class="badge badge-primary badge-pill"></span>
+                        <span id="xval"class="badge badge-warning badge-pill"></span>
+                        <span id="borneDroite" class="badge badge-primary badge-pill"></span>
+                    </li>
+                    <li class="list-group-item d-flex justify-content-between align-items-center">
+                        Position y
+                        <span id="borneHaute" class="badge badge-primary badge-pill"></span>
+                        <span id="yval" class="badge badge-warning badge-pill"></span>
+                        <span id="borneBasse" class="badge badge-primary badge-pill"></span>
+                    </li>
+                    <li class="list-group-item d-flex justify-content-between align-items-center">
+                        Etat
+                        <span id="etatval" class="badge badge-warning badge-pill"></span>
+                    </li>
+                    <li class="list-group-item d-flex justify-content-between align-items-center">
+                        RandMove
+                        <span id="etatval" class="badge badge-warning badge-pill"><span id="randmovedir"></span></span>
+                    </li>
+                    <li class="list-group-item d-flex justify-content-between align-items-center">
+                        State
+                        <span id="etatval" class="badge badge-warning badge-pill"><span id="state"></span></span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+
+<button class="btn btn-sm btn-success" onclick="run('run_n')">n</button>
+<button class="btn btn-sm" onclick="run('run_nw')">nw</button>
+<button class="btn btn-sm" onclick="run('run_ne')">ne</button>
+<button class="btn btn-sm" onclick="run('run_w')">w</button>
+<button class="btn btn-sm" onclick="run('run_e')">e</button>
+<button class="btn btn-sm" onclick="run('run_sw')">sw</button>
+<button class="btn btn-sm" onclick="run('run_se')">se</button>
+<button class="btn btn-sm" onclick="run('run_s')">s</button>
+<br>
+<button class="btn btn-sm" onclick="walk('walk_n')">n</button>
+<button class="btn btn-sm" onclick="walk('walk_nw')">nw</button>
+<button class="btn btn-sm" onclick="walk('walk_ne')">ne</button>
+<button class="btn btn-sm" onclick="walk('walk_w')">w</button>
+<button class="btn btn-sm" onclick="walk('walk_e')">e</button>
+<button class="btn btn-sm" onclick="walk('walk_sw')">sw</button>
+<button class="btn btn-sm" onclick="walk('walk_se')">se</button>
+<button class="btn btn-sm" onclick="walk('walk_s')">s</button>
+<br>
+<button class="btn btn-sm" onclick="stop()">stop</button>
+<button class="btn btn-sm" onclick="idle('blink')">blink</button>
+<button class="btn btn-sm" onclick="idle('ennui')">ennui</button>
+<button class="btn btn-sm" onclick="idle('attack')">attack</button>
+<button class="btn btn-sm" onclick="cat(100, 100, 100, 100)">Creer un chat</button>
+<button class="btn btn-sm" onclick="randomWalk()">RandWalk</button> -->
+
+    </body>
+</html>

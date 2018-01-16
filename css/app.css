@@ -1,0 +1,12 @@
+body  {
+    background-image: url('../dark_embroidery.png');
+}
+
+canvas {
+    background: rgb(51,51,51);
+    border: none;
+}
+
+.progress {
+
+}
